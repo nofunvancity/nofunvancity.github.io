@@ -1,0 +1,114 @@
+body {
+  background-image: url(assets/global/images/nofunbg.gif);
+  background-repeat: round;
+  background-blend-mode: lighten;
+  background-color:#1a143f;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  align-items: center;
+  
+}
+div {
+  background-image: url(assets/global/images/nofundiv.png);
+  background-repeat: round;
+  background-color: rgb(57, 15, 38);
+  margin-left: 10%;
+  margin-right: 10%;
+}
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  align-items: center;
+  background-color: rgb(65, 60, 99);
+  color: rgb(248, 226, 199);
+}
+h2 {
+  margin: 3%;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  align-items: center;
+  display: inline;
+  background-color: rgb(65, 60, 99);
+  color: rgb(248, 226, 199);
+}
+h3 {
+  margin: 3%;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  align-items: center;
+  display: inline;
+  background-color: rgb(65, 60, 99);
+  color: rgb(248, 226, 199);
+}
+h4 {
+  margin: 3%;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  align-items: center;
+  display: inline;
+  background-color: rgb(65, 60, 99);
+  color: rgb(248, 226, 199);
+}
+h5 {
+  margin: 3%;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  align-items: center;
+  display: inline;
+  background-color: rgb(65, 60, 99);
+  color: rgb(248, 226, 199);
+}
+h6 {
+  margin: 3%;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  align-items: center;
+  display: inline;
+  background-color: rgb(65, 60, 99);
+  color: rgb(248, 226, 199);
+}
+pre {
+  margin: 3%;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  align-items: center;
+  background-color: rgb(65, 60, 99);
+  color: rgb(248, 226, 199);
+}
+p {
+  margin: 3%;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: left;
+  align-items: center;
+  line-height: 1.5;
+  background-color: rgb(65, 60, 99);
+  color: rgb(248, 226, 199);
+}
+code {
+  background-color: slategray;
+  color: aliceblue;
+}
+a:link {
+  background-color: rgb(65, 60, 99);
+  color: rgb(248, 226, 199);
+}
+a:visited {
+  background-color: rgb(65, 60, 99);
+  color: rgb(205, 148, 78);
+}
+a:hover {
+background-color: rgb(65, 60, 99);
+  color: #ffa230;
+}
+
+.row {
+  display: flex;
+}
+.column {
+  justify-content: center;
+  align-items: center;
+  margin-left: 0;
+  margin-right: 0;
+  flex: 33%;
+  vertical-align: middle;
+}
